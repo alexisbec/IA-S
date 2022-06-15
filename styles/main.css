@@ -115,6 +115,14 @@ nav ul li a {
     width: 50vw;
 }
 
+.big-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row
+    
+    ;
+}
+
 .big-logo p {
     color: #47C1C4;
 }
