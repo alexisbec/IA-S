@@ -30,6 +30,7 @@ nav ul {
     display: flex;
     justify-content: center;
     border-radius: 5px;
+    border: #fff 1px solid;
 }
 
 nav ul li {
@@ -94,4 +95,86 @@ nav ul li a {
     font-size: 2em;
     color: #fff;
     margin-top: 20em;
+}
+
+.info-sec {
+    height: 250vh;
+}
+
+.mision-icons-cont {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30em;
+}
+
+.mision-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mision-icons img {
+    width: 20em;
+}
+
+.mision-icons p {
+    font-size: 1.5em;
+    color: #737373;
+    text-align: center;
+    margin: 0 3em;
+    width: 20em;
+    line-height: 2em;
+}
+
+.info-logo {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    height: 100vh;
+    padding: 2em;
+}
+
+.info-logo img {
+    position: absolute;
+    left: -30em;
+    width: 80em;
+}
+
+.info-subtitle-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-subtitle-1 p {
+    color: #47C1C4;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: right;
+    width: 60vw;
+}
+
+.politicas {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5em 15em;
+}
+
+.politicas h2 {
+    font-size: 3.5em;
+    font-family: 'Quicksand', sans-serif;
+    color: #47C1C4;
+    margin-bottom: 3em;
+}
+
+.politicas p {
+    font-size: 2em;
+    text-align: center;
+    color: #737373;
 }
