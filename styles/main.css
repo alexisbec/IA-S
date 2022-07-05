@@ -98,7 +98,7 @@ nav ul li a {
 }
 
 .info-sec {
-    height: 250vh;
+    height: auto;
 }
 
 .mision-icons-cont {
@@ -265,5 +265,46 @@ nav ul li a {
     font-size: 2em;
     font-weight: bolder;
     margin-right: 8em;
+    cursor: pointer;
+}
+
+footer {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    font-weight: bold;
+    color: #737373;
+}
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.left-col a {
+    cursor: pointer;
+}
+
+.social {
+    font-size: 3em;
+}
+
+.social a {
+    margin: 0 0.3em;
+    cursor: pointer;
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 1.3em;
+}
+
+.right-col a {
     cursor: pointer;
 }
