@@ -40,7 +40,7 @@
     justify-content: start;
     align-items: center;
     position: relative;
-    height: 500vh !important;
+    height: 540vh !important;
 }
 
 .blue-bgr h2 {
@@ -89,5 +89,42 @@
     width: 80em;
 }
 
+.list-banner {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70vw;
+}
 
+.list-el {
+    display: flex;
+    max-height: 10em;
+    margin: 1em 0;
+}
+
+.list-el h3 {
+    font-size: 10em;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 1em;
+}
+
+.list-el p {
+    font-size: 3.5em;
+    align-self: center;
+}
+
+.final-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.grey-title {
+
+}
 
