@@ -1,0 +1,93 @@
+.intro-banner {
+    width: 100vw;
+    height: 200vh !important;
+    padding-top: 13em;
+}
+
+.blue-title h1 {
+    width: 30vw;
+    color: #fff;
+    background-color: #47C1C4;
+    font-size: 3.5em;
+    border-radius: 0 10px 10px 0;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.intro-info {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    width: 100vw;
+    padding-left: 25em;
+    margin-top: 10em;
+    padding-right: 8em;
+}
+
+.intro-info h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.intro-info p {
+    font-size: 2em;
+}
+
+.blue-bgr {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    height: 500vh !important;
+}
+
+.blue-bgr h2 {
+    text-align: center;
+    font-size: 4em;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.blue-bgr-logo {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    height: 100vh;
+    width: 100vw;
+    padding: 5em;
+    margin-top: 15em;
+}
+
+.info-logo {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    height: 100vh;
+    padding: 2em;
+}
+
+
+.blue-brg-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-brg-subtitle p {
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    width: 40vw;
+    text-align: left;  
+}
+
+.blue-bgr-logo img {
+    position: absolute;
+    right: -25em;
+    width: 80em;
+}
+
+
+
