@@ -7,6 +7,24 @@
     transition: 0.5s;
 }
 
+::-webkit-scrollbar {
+    width: 1em;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #47C1C4; 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #737373;
+}
+
 body {
     background-color: #fff;
     font-family: 'Raleway', sans-serif;
@@ -119,7 +137,14 @@ nav ul li a {
     width: 20em;
 }
 
-.mision-icons p {
+.mision-subtitle {
+    color: #737373;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.mision-desc {
     font-size: 1.5em;
     color: #737373;
     text-align: center;
@@ -223,7 +248,7 @@ nav ul li a {
 }
 
 .contacto-footer {
-    height: 120vh;
+    height: 150vh;
     background-color: #47C1C4;
     display: flex;
     justify-content: center;
@@ -238,7 +263,7 @@ nav ul li a {
 }
 
 .contacto-banner p {
-    font-size: 2.5em;
+    font-size: 2.2em;
     color: #fff;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -253,7 +278,7 @@ nav ul li a {
 }
 
 .logo-contacto {
-    width: 60em;
+    width: 50em;
 }
 
 .contacto-button {
@@ -264,7 +289,7 @@ nav ul li a {
     border-radius: 10px;
     font-size: 2em;
     font-weight: bolder;
-    margin-right: 8em;
+    margin-right: 10em;
     cursor: pointer;
 }
 
@@ -287,6 +312,7 @@ footer {
 
 .left-col a {
     cursor: pointer;
+    margin: 0.3em 0;
 }
 
 .social {
@@ -307,4 +333,5 @@ footer {
 
 .right-col a {
     cursor: pointer;
+    margin: 0.3em 0;
 }
