@@ -1,0 +1,40 @@
+.home-banner {
+    height: 170vh;
+}
+
+.blue-sqr-cont {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blue-sqr {
+    margin-top: 12em;
+    background-color: #47C1C4;
+    width: 30vw;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.blue-sqr h3 {
+    color: #fff;
+    font-size: 3em;
+}
+
+.home-info {
+    margin-top: 3em;
+    padding: 0 5em;
+    width: 80vw;
+}
+
+.subtitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.home-info p {
+    margin-top: 3em;
+    font-size: 2em;
+    line-height: 1.5em;
+}
