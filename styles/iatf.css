@@ -1,5 +1,5 @@
 .home-banner {
-    height: 170vh;
+    height: 210vh;
 }
 
 .blue-sqr-cont {
@@ -35,6 +35,111 @@
 
 .home-info p {
     margin-top: 3em;
+    font-size: 1.7em;
+    line-height: 1.5em;
+}
+
+.home-img img {
+    width: 50em;
+    margin-top: 20em;
+    position: absolute;
+    right: -7em;
+}
+
+.des-sec {
+    height: 350vh;
+    padding: 10em;
+}
+
+.des-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.des-intro div {
+    text-align: left;
+}
+
+.des-intro p {
+    font-size: 2em;
+    margin: 2em 0 10em 0;
+    width: 60vw;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.steps {
+    margin: 5em 0;
+}
+
+.steps-title {
+    color: #47C1C4;
+    font-size: 5em;
+}
+
+.steps p {
+    font-size: 2.3em;
+    margin: 1em 0;
+    width: 30em;
+}
+
+.steps-title strong {
     font-size: 2em;
     line-height: 1.5em;
+}
+
+.contacto-footer {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-contacto {
+    width: 50em;
+}
+
+.logo-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+}
+
+.logo-button p {
+    font-size: 2.5em;
+    color: #737373;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.contacto-button {
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background-color: #47C1C4;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-size: 2em;
+    font-weight: bolder;
+    cursor: pointer;
 }
