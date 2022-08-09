@@ -1,0 +1,168 @@
+.intro-banner {
+    width: 100vw;
+    height: 200vh !important;
+    padding-top: 13em;
+}
+
+.blue-title h1 {
+    width: 30vw;
+    color: #fff;
+    background-color: #47C1C4;
+    font-size: 3.5em;
+    border-radius: 0 10px 10px 0;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.intro-info {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    width: 100vw;
+    padding-left: 25em;
+    margin-top: 10em;
+    padding-right: 8em;
+}
+
+.intro-info h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.intro-info p {
+    font-size: 2em;
+}
+
+.blue-bgr {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    height: 500vh !important;
+}
+
+.blue-bgr h2 {
+    font-size: 4em;
+    color: #737373;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.blue-bgr-logo {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    height: 100vh;
+    width: 100vw;
+    padding: 5em;
+    margin-top: 15em;
+}
+
+.blue-brg-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-brg-subtitle p {
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    width: 40vw;
+    text-align: left;  
+}
+
+.blue-bgr-logo img {
+    position: absolute;
+    right: -5em;
+    width: 50em;
+}
+
+.des-intro {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0 10em;
+}
+
+.des-intro p {
+    font-size: 2em;
+    margin: 2em 0 10em 0;
+    width: 60vw;
+}
+
+.right {
+    align-self: flex-end;
+    text-align: end;
+}
+
+.left {
+    align-items: flex-start;
+    text-align: start;
+}
+
+.steps {
+    margin: 5em 0;
+}
+
+.steps-title {
+    color: #47C1C4;
+    font-size: 5em;
+}
+
+.steps p {
+    font-size: 2.3em;
+    margin: 1em 0;
+    width: 30em;
+    color: #fff;
+}
+
+.steps-title strong {
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+.contacto-footer {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-contacto {
+    width: 50em;
+}
+
+.logo-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+}
+
+.logo-button p {
+    font-size: 2.5em;
+    color: #737373;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.contacto-button {
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background-color: #47C1C4;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-size: 2em;
+    font-weight: bolder;
+    cursor: pointer;
+}
