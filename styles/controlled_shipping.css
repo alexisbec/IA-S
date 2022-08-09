@@ -1,61 +1,81 @@
 body {
-    background-color: #737373 !important;
+    background-color: #737373;
 }
 
-.home-banner {
-    height: 210vh;
-}
-
-.blue-sqr-cont {
+.intro-banner {
     width: 100vw;
-    display: flex;
-    justify-content: flex-end;
+    height: 200vh !important;
+    padding-top: 13em;
 }
 
-.blue-sqr {
-    margin-top: 12em;
-    background-color: #47C1C4;
+.blue-title h1 {
     width: 45vw;
-    padding: 2em;
-    border-radius: 10px;
+    color: #fff;
+    background-color: #47C1C4;
+    font-size: 3.2em;
+    border-radius: 0 10px 10px 0;
+    padding: 0.5em;
     text-align: center;
 }
 
-.blue-sqr h3 {
+.intro-info {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    width: 100vw;
+    padding-left: 25em;
+    margin-top: 7em;
+    padding-right: 8em;
     color: #fff;
+}
+
+.intro-info h2 {
     font-size: 3em;
+    margin-bottom: 1em;
 }
 
-.home-info {
-    margin-top: 3em;
-    padding: 0 5em;
-    width: 80vw;
+.intro-info p {
+    font-size: 2em;
 }
 
-.subtitle {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 4em;
-    font-weight: bolder;
-    color: #fff;
+.blue-bgr {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    height: 540vh !important;
 }
 
-.home-info p {
-    margin-top: 3em;
-    font-size: 1.7em;
-    line-height: 1.5em;
-    color: #fff;
+.blue-bgr-logo {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    height: 100vh;
+    width: 100vw;
+    padding: 5em;
+    margin-top: 15em;
 }
 
-.home-img img {
-    width: 50em;
-    margin-top: 20em;
+.blue-brg-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-brg-subtitle p {
+    color: #737373;
+    font-size: 2em;
+    font-weight: bold;
+    width: 40vw;
+    text-align: left;  
+}
+
+.blue-bgr-logo img {
     position: absolute;
-    right: -7em;
-}
-
-.des-sec {
-    height: 350vh;
-    padding: 10em;
+    right: -5em;
+    width: 50em;
 }
 
 .des-intro {
@@ -121,7 +141,7 @@ body {
 }
 
 .logo-contacto {
-    width: 50em;
+    width: 40em;
 }
 
 .logo-button {
@@ -130,11 +150,12 @@ body {
     align-items: center;
     justify-content: center;
     width: 40vw;
+    margin-left: 5em;
 }
 
 .logo-button p {
-    font-size: 2.5em;
-    color: #737373;
+    font-size: 2em;
+    color: #fff;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     margin-bottom: 2em;

@@ -26,7 +26,6 @@
 }
 
 body {
-    background-color: #fff;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
     height: auto;
@@ -71,7 +70,17 @@ nav ul li a {
 
 /* ----- Footer ----- */
 
-footer {
+.footer-blue {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    font-weight: bold;
+    color: #47C1C4;
+}
+
+.footer-grey {
     height: 10em;
     display: flex;
     align-items: center;
@@ -79,6 +88,16 @@ footer {
     padding: 2em;
     font-weight: bold;
     color: #737373;
+}
+
+.footer-white {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    font-weight: bold;
+    color: #fff;
 }
 
 .left-col {
