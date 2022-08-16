@@ -1,5 +1,5 @@
 .home-banner {
-    height: 210vh;
+    height: 250vh;
 }
 
 .blue-sqr-cont {
@@ -42,7 +42,7 @@
 
 .home-img img {
     width: 50em;
-    margin-top: 20em;
+    margin-top: 30em;
     position: absolute;
     right: -7em;
 }
@@ -115,7 +115,8 @@
 }
 
 .logo-contacto {
-    width: 50em;
+    width: 40em;
+    margin-right: 2em;
 }
 
 .logo-button {
