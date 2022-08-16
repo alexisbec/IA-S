@@ -64,14 +64,28 @@ body {
 }
 
 .info-mid {
-    margin-top: 30em;
+    margin: 80em 0 40em 0;
     color: #fff;
     display: flex;
-    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
 }
 
 .info-mid-text {
-    font-size: 3em;
+    font-size: 2.5em;
+    width: 50%;
+    margin-right: 3em;
+}
+
+.info-mid-sqrs p {
+    font-size: 2em;
+    padding: 1em;
+    width: 20em;
+    text-align: center;
+    margin: 2em 0;
+    background-color: #47C1C4;
+    border-radius: 10px;
 }
 
 .des-intro {
@@ -110,6 +124,7 @@ body {
     font-size: 2.3em;
     margin: 1em 0;
     width: 30em;
+    color: #fff;
 }
 
 .steps-title strong {
@@ -154,7 +169,7 @@ body {
 .contacto-button {
     font-family: 'Quicksand', sans-serif;
     color: #fff;
-    background-color: #737373;
+    background-color: #47C1C4;
     padding: 0.5em 1em;
     border-radius: 10px;
     font-size: 2em;
