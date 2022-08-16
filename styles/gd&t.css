@@ -68,7 +68,6 @@
     padding: 2em;
 }
 
-
 .blue-brg-subtitle {
     display: flex;
     justify-content: center;
@@ -85,8 +84,8 @@
 
 .blue-bgr-logo img {
     position: absolute;
-    right: -25em;
-    width: 80em;
+    right: -5em;
+    width: 50em;
 }
 
 .list-banner {
@@ -173,6 +172,7 @@
 
 .logo-contacto {
     width: 40em;
+    margin-right: 2em;
 }
 
 .logo-button {
@@ -188,7 +188,7 @@
     color: #737373;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    margin: 0 0 2em 2em;
+    margin-bottom: 2em;
 }
 
 .contacto-button {
