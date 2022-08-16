@@ -81,17 +81,13 @@ body {
 .des-intro {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-}
-
-.des-intro div {
-    text-align: left;
+    align-items: center;
+    width: 100vw;
 }
 
 .des-intro p {
     font-size: 2em;
     margin: 2em 0 10em 0;
-    width: 60vw;
 }
 
 .right {
@@ -105,10 +101,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
 }
 
 .steps {
     margin: 5em 0;
+    width: 70vw;
 }
 
 .steps-title {
@@ -119,7 +117,6 @@ body {
 .steps p {
     font-size: 2.3em;
     margin: 1em 0;
-    width: 30em;
 }
 
 .steps-title strong {

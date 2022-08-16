@@ -172,7 +172,7 @@
 }
 
 .logo-contacto {
-    width: 50em;
+    width: 40em;
 }
 
 .logo-button {
@@ -188,7 +188,7 @@
     color: #737373;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    margin-bottom: 2em;
+    margin: 0 0 2em 2em;
 }
 
 .contacto-button {
