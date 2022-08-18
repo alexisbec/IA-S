@@ -47,9 +47,10 @@
 .subtitle-quienes-somos {
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 2.5em;
     color: #fff;
     margin-top: 20em;
+    text-align: center;
 }
 
 .info-sec {
@@ -100,8 +101,8 @@
 
 .info-logo img {
     position: absolute;
-    left: -30em;
-    width: 80em;
+    left: -15em;
+    width: 60em;
 }
 
 .info-subtitle-1 {
@@ -126,6 +127,7 @@
     align-items: center;
     flex-direction: column;
     padding: 5em 15em;
+    line-height: 3em;
 }
 
 .politicas h2 {
@@ -205,6 +207,7 @@
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     width: 60vw;
+    margin-bottom: 5em;
 }
 
 .logo-button {
@@ -215,7 +218,7 @@
 }
 
 .logo-contacto {
-    width: 50em;
+    width: 40em;
 }
 
 .contacto-button {
