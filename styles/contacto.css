@@ -1,0 +1,29 @@
+.home-banner {
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10em 20em 20em;
+}
+
+.row {
+    margin: 8em 0;
+}
+
+.row input {
+    background-color: #47C1C4;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0 2em;
+    width: 40em;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    
+}
