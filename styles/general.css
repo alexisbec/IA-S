@@ -137,3 +137,35 @@ nav ul li a {
     cursor: pointer;
     margin: 0.3em 0;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .left-col {
+        font-size: 1.5vw;
+    }
+
+    .social {
+        font-size: 4vw;
+    }
+
+    .right-col {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer-blue, .footer-grey, .footer-white {
+        height: 8em;
+    }
+
+    .left-col {
+        font-size: 2vw;
+    }
+
+    .social {
+        font-size: 5vw;
+    }
+
+    .right-col {
+        font-size: 2vw;
+    }
+}
