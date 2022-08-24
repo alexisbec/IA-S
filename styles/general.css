@@ -25,11 +25,16 @@
     background: #737373;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
     height: auto;
     color: #737373;
+    position: relative;
 }
 
 /* ----- Nav Bar ----- */
@@ -138,6 +143,8 @@ nav ul li a {
     margin: 0.3em 0;
 }
 
+/* ----- Media Queries ----- */
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .left-col {
         font-size: 1.5vw;
@@ -154,18 +161,26 @@ nav ul li a {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .footer-blue, .footer-grey, .footer-white {
-        height: 8em;
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 5vh;
     }
 
     .left-col {
-        font-size: 2vw;
+        font-size: 3vw;
+        align-self: flex-start;
     }
 
     .social {
-        font-size: 5vw;
+        font-size: 7vw;
+        align-self: flex-end;
     }
 
     .right-col {
-        font-size: 2vw;
+        font-size: 3vw;
+        text-align: left;
+        align-self: flex-start;
     }
 }

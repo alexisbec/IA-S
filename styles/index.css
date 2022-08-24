@@ -146,18 +146,18 @@
 }
 
 .pros {
-    height: 300vh;
+    height: 450vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.pros p {
+.pros h2 {
     color: #47C1C4;
     font-size: 3em;
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
-    margin-bottom: 3vw;
+    margin: 20vh 0;
 }
 
 .blue-sqr {
@@ -175,6 +175,7 @@
     text-align: center;
     padding: 1em;
     border-radius: 10px;
+    margin: 10vh 0;
 }
 
 .left {
@@ -387,12 +388,12 @@
     }
 
     .mision-icons {
-        margin: 7em 0;
+        margin: 5em 0;
         width: 80vw;
     }
     
     .mision-icons img {
-        width: 40vw;
+        width: 60vw;
     }
 
     .mision-subtitle {
@@ -400,42 +401,47 @@
     }
     
     .mision-desc {
-        font-size: 3vw;
+        font-size: 4.5vw;
         width: 100%;
     }
 
+    .info-logo {
+        height: 80vh;
+    }
+
     .info-logo img {
-        width: 70vw;
-        left: -10em;
+        width: 80vw;
+        left: -5em;
     }
 
     .info-subtitle-1 p {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
         width: 80vw;
     }
 
     .politicas {
         padding: 2em;
-        height: 130vh;
+        height: 100vh;
     }
 
     .politicas h2 {
-        font-size: 5vw;
+        font-size: 6vw;
+        margin-bottom: 1em;
     }
     
     .politicas p {
-        font-size: 3vw;
+        font-size: 4vw;
         line-height: 2em;
     }
 
     .pros {
         padding: 20em 2em;
-        height: 200vh;
+        height: 230vh;
     }
-    
-    .pros p {
+
+    .pros h2 {
         font-size: 5vw;
-        margin-bottom: 3em;
+        margin: 5vh 0;
     }
 
     .blue-sqr {
@@ -445,30 +451,32 @@
     }
     
     .blue-sqr p {
-        font-size: 3vw;
+        font-size: 4vw;
+        margin-bottom: 3vh;
     }
     
     .contacto-banner p {
-        font-size: 3vw;
-        width: 60vw;
+        font-size: 5vw;
+        width: 90vw;
         margin-bottom: 5em;
     }
     
     .logo-button {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        flex-direction: column;
         width: 80vw;
     }
     
     .logo-contacto {
-        width: 40vw;
+        width: 70vw;
     }
     
     .contacto-button {
         padding: 0.5em 1em;
         border-radius: 10px;
-        font-size: 3vw;
-        margin: auto;
+        font-size: 6vw;
+        margin-top: 5em;
     }
 }

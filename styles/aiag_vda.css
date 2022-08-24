@@ -12,7 +12,7 @@ body {
     width: 40vw;
     color: #fff;
     background-color: #737373;
-    font-size: 3.2em;
+    font-size: 3.2vw;
     border-radius: 0 10px 10px 0;
     padding: 0.5em;
     text-align: center;
@@ -25,20 +25,20 @@ body {
     flex-direction: column;
     text-align: end;
     width: 100vw;
-    padding-left: 25em;
+    padding-left: 25vw;
     margin-top: 7em;
     padding-right: 8em;
     color: #fff;
 }
 
 .intro-info h2 {
-    font-size: 3em;
+    font-size: 3vw;
     margin-bottom: 1em;
     font-family: 'Quicksand', sans-serif;
 }
 
 .intro-info p {
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 .white-bgr {
@@ -47,7 +47,7 @@ body {
     justify-content: start;
     align-items: center;
     position: relative;
-    height: 1000vh !important;
+    height: 1100vh !important;
 }
 
 .white-bgr-logo {
@@ -56,7 +56,7 @@ body {
     justify-content: start;
     flex-direction: column;
     width: 100vw;
-    padding: 5em;
+    padding: 5vw;
 }
 
 .white-brg-subtitle {
@@ -68,31 +68,31 @@ body {
 }
 
 .white-brg-subtitle h3 {
-    font-size: 3em;
+    font-size: 3vw;
     margin-bottom: 2em;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
+    color: #47C1C4;
 }
 
 .white-brg-subtitle p {
     color: #737373;
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: bold;
     width: 40vw;
-    text-align: left;  
-    
+    text-align: left;
 }
 
 .white-bgr-logo img {
     position: absolute;
     right: -5em;
-    width: 50em;
+    width: 50vw;
     margin-top: 40em;
 }
 
 .des-sec {
     height: 400vh;
-    padding: 10em;
+    padding: 10vw;
 }
 
 .des-intro {
@@ -102,7 +102,7 @@ body {
 }
 
 .des-intro p {
-    font-size: 3em;
+    font-size: 3vw;
     margin: 2em 0 5em 0;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
@@ -121,17 +121,18 @@ body {
     display: flex;
     max-height: 10em;
     margin: 1em 0;
+    width: 80vw;
 }
 
 .list-el h3 {
-    font-size: 10em;
+    font-size: 10vw;
     font-weight: bold;
     align-self: flex-end;
-    width: 1.5em !important;
+    width: 1.5em;
 }
 
 .list-el p {
-    font-size: 3em;
+    font-size: 3vw;
     align-self: center;
 }
 
@@ -143,7 +144,7 @@ body {
     color: #fff;
     background-color: #737373;
     padding: 1em;
-    font-size: 2.5em;
+    font-size: 2.5vw;
     font-family: 'Quicksand', sans-serif;
     width: 40vw;
     text-align: center;
@@ -155,11 +156,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    padding: 0 15em;
+    padding: 0 15vw;
 }
 
 .final-banner-list p {
-    font-size: 3em;
+    font-size: 3vw;
     font-weight: bold;
     margin: 3em 0; 
 }
@@ -184,13 +185,14 @@ body {
 }
 
 .contacto-banner {
+    width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .logo-contacto {
-    width: 40em;
+    width: 40vw;
 }
 
 .logo-button {
@@ -199,11 +201,11 @@ body {
     align-items: center;
     justify-content: center;
     width: 40vw;
-    margin-left: 5em;
+    margin: auto;
 }
 
 .logo-button p {
-    font-size: 2em;
+    font-size: 2vw;
     color: #fff;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -216,7 +218,192 @@ body {
     background-color: #737373;
     padding: 0.5em 1em;
     border-radius: 10px;
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: bolder;
     cursor: pointer;
+}
+
+/* -------------------- Media Querys -------------------- */
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .intro-info {
+        padding: 0 10vw 0 15vw;
+    }
+
+    .white-brg-subtitle h3 {
+        font-size: 5vw;
+        margin-bottom: 1em;
+    }
+
+    .white-brg-subtitle p {
+        width: 60vw;
+    }
+
+    .des-sec {
+        height: 350vh;
+        padding: auto;
+    }
+
+    .final-grey-title {
+        font-size: 2.5vw;
+        width: 60vw;
+    }
+
+    .final-banner-list {
+        padding: 0 10vw;
+    }
+
+    .logo-contacto {
+        width: 40vw;
+        margin: auto;
+    }
+    
+    .logo-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 40vw;
+        margin: auto;
+    }
+
+    .logo-button p {
+        font-size: 2.5vw;
+        margin-bottom: 5em;
+    }
+    
+    .contacto-button {
+        padding: 0.5em 1em;
+        border-radius: 10px;
+        font-size: 3vw;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    body {
+        background-color: purple;
+    }
+
+    .intro-banner {
+        height: 150vh !important;
+    }
+
+    .grey-title h1 {
+        width: 70vw;
+        font-size: 5vw;
+        padding: 0.5em;
+    }
+
+    .white-bgr {
+        height: 800vh !important;
+    }
+
+    .intro-info {
+        padding: 0 5vw;
+    }
+
+    .intro-info h2 {
+        font-size: 5vw;
+    }
+
+    .intro-info p {
+        font-size: 4vw;
+    }
+
+    .white-brg-subtitle h3 {
+        font-size: 7vw;
+        margin-bottom: 1em;
+    }
+
+    .white-brg-subtitle p {
+        width: 80vw;
+        font-size: 3.4vw;
+    }
+
+    .white-bgr-logo img {
+        right: -2em;
+        width: 80vw;
+        margin-top: 40em;
+    }
+
+    .des-sec {
+        height: 350vh;
+        padding: auto;
+    }
+
+    .des-intro p {
+        font-size: 6vw;
+        margin: 2em 0 5em 0;
+    }
+
+    .list-banner {
+        width: 90vw;
+    }
+
+    .list-el {
+        display: flex;
+        max-height: 10em;
+        margin: 1em 0;
+        width: 100%;
+    }
+    
+    .list-el h3 {
+        font-size: 15vw;
+        width: 1.3em;
+    }
+    
+    .list-el p {
+        font-size: 4vw;
+    }
+
+    .final-grey-title {
+        font-size: 4vw;
+        width: 80vw;
+        margin-bottom: 4em;
+    }
+
+    .final-banner-list {
+        padding: 0 10vw;
+    }
+
+    .final-banner-list p {
+        font-size: 4.2vw;
+    }
+
+    .logo-contacto {
+        width: 40vw;
+        margin: auto;
+    }
+    
+    .logo-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 40vw;
+        margin: auto;
+    }
+
+    .logo-button p {
+        font-size: 2.5vw;
+        margin-bottom: 5em;
+    }
+    
+    .contacto-button {
+        padding: 0.5em 1em;
+        border-radius: 10px;
+        font-size: 3vw;
+        margin: auto;
+    }
 }
