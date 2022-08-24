@@ -12,10 +12,11 @@ body {
     width: 45vw;
     color: #fff;
     background-color: #47C1C4;
-    font-size: 3.2em;
+    font-size: 3.2vw;
     border-radius: 0 10px 10px 0;
     padding: 0.5em;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 .intro-info {
@@ -24,18 +25,17 @@ body {
     flex-direction: column;
     text-align: end;
     width: 100vw;
-    padding-left: 25em;
-    padding-right: 8em;
+    padding: 0 8vw 0 20vw;
     color: #fff;
 }
 
 .intro-info h2 {
-    font-size: 3em;
-    margin-bottom: 1em;
+    font-size: 3vw;
+    margin-bottom: 2em;
 }
 
 .intro-info p {
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 .info-sec {
@@ -59,7 +59,7 @@ body {
 .info-sec-logo img {
     position: absolute;
     left: -10em;
-    width: 50em;
+    width: 50vw;
     margin-top: 5em;
 }
 
@@ -73,13 +73,13 @@ body {
 }
 
 .info-mid-text {
-    font-size: 2.5em;
+    font-size: 2.5vw;
     width: 50%;
     margin-right: 3em;
 }
 
 .info-mid-sqrs p {
-    font-size: 2em;
+    font-size: 2vw;
     padding: 1em;
     width: 20em;
     text-align: center;
@@ -92,11 +92,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    padding: 0 10em;
+    padding: 0 10vw;
 }
 
 .des-intro p {
-    font-size: 2em;
+    font-size: 2vw;
     margin: 2em 0 10em 0;
     width: 60vw;
 }
@@ -117,19 +117,19 @@ body {
 
 .steps-title {
     color: #47C1C4;
-    font-size: 5em;
-}
-
-.steps p {
-    font-size: 2.3em;
-    margin: 1em 0;
-    width: 30em;
-    color: #fff;
+    font-size: 4vw;
 }
 
 .steps-title strong {
-    font-size: 2em;
+    font-size: 8vw;
     line-height: 1.5em;
+}
+
+.steps p {
+    font-size: 2.3vw;
+    margin: 1em 0;
+    width: 30em;
+    color: #fff;
 }
 
 .contacto-footer {
@@ -146,7 +146,7 @@ body {
 }
 
 .logo-contacto {
-    width: 40em;
+    width: 40vw;
 }
 
 .logo-button {
@@ -155,11 +155,11 @@ body {
     align-items: center;
     justify-content: center;
     width: 40vw;
-    margin-left: 5em;
+    margin: auto;
 }
 
 .logo-button p {
-    font-size: 2em;
+    font-size: 2vw;
     color: #fff;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -172,7 +172,171 @@ body {
     background-color: #47C1C4;
     padding: 0.5em 1em;
     border-radius: 10px;
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: bolder;
     cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .blue-title h1 {
+        width: 60vw;
+        font-size: 4vw;
+        margin-bottom: 1em;
+    }
+
+    .intro-info {
+        width: 100vw;
+        padding: 0 6vw 0 10vw;
+    }
+    
+    .intro-info h2 {
+        font-size: 4vw;
+        margin-bottom: 2em;
+    }
+    
+    .intro-info p {
+        font-size: 2.5vw;
+    }
+
+    .info-sec-logo img {
+        left: -10em;
+        width: 60vw;
+    }
+
+    .logo-contacto {
+        width: 40vw;
+        margin: auto;
+    }
+    
+    .logo-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 40vw;
+        margin: auto;
+    }
+
+    .logo-button p {
+        font-size: 2.5vw;
+        margin-bottom: 5em;
+    }
+    
+    .contacto-button {
+        padding: 0.5em 1em;
+        border-radius: 10px;
+        font-size: 3vw;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .intro-banner {
+        height: 110vh !important;
+    }
+
+    .blue-title h1 {
+        width: 70vw;
+        font-size: 5vw;
+        margin-bottom: 1em;
+    }
+
+    .intro-info {
+        padding: 0 5vw;
+    }
+
+    .intro-info h2 {
+        font-size: 5vw;
+    }
+
+    .intro-info p {
+        font-size: 4vw;
+    }
+
+    .info-sec {
+        height: 350vh !important;
+    }
+
+    .info-sec-logo img {
+        left: -5em;
+        width: 80vw;
+    }
+
+    .info-mid {
+        margin: 30em 0 10em 0;
+        width: 90vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-mid-text {
+        margin: 1em auto;
+        text-align: center;
+        font-size: 5.5vw;
+        width: 100%;
+    }
+
+    .info-mid-sqrs p {
+        font-size: 4vw;
+    }
+
+    .des-intro {
+        width: 90vw;
+        padding: 0;
+    }
+
+    .des-intro p {
+        width: 100%;
+    }
+
+    .steps-title {
+        font-size: 10vw;
+    }
+
+    .steps-title strong {
+        font-size: 14vw;
+    }
+
+    .steps p {
+        font-size: 5vw;
+    }
+
+    .contacto-footer {
+        height: 90vh;
+    }
+
+    .contacto-banner {
+        flex-direction: column;
+    }
+
+    .logo-contacto {
+        width: 75vw;
+    }
+    
+    .logo-button {
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        margin-top: 5em;
+    }
+
+    .logo-button p {
+        font-size: 5vw;
+        margin-bottom: 3em;
+    }
+    
+    .contacto-button {
+        font-size: 5vw;
+    }
 }
