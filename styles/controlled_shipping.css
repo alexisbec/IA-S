@@ -1,18 +1,18 @@
-body {
+/* body {
     background-color: #737373;
-}
+} */
 
 .intro-banner {
     width: 100vw;
-    height: 200vh !important;
+    height: 150vh !important;
     padding-top: 13em;
 }
 
 .blue-title h1 {
-    width: 45vw;
+    width: 50vw;
     color: #fff;
     background-color: #47C1C4;
-    font-size: 3.2em;
+    font-size: 3vw;
     border-radius: 0 10px 10px 0;
     padding: 0.5em;
     text-align: center;
@@ -24,58 +24,58 @@ body {
     flex-direction: column;
     text-align: end;
     width: 100vw;
-    padding-left: 25em;
+    padding: 0 8vw 0 20vw;
     margin-top: 7em;
-    padding-right: 8em;
     color: #fff;
 }
 
 .intro-info h2 {
-    font-size: 3em;
+    font-size: 3vw;
     margin-bottom: 1em;
 }
 
 .intro-info p {
-    font-size: 2em;
+    font-size: 2vw;
 }
 
-.blue-bgr {
+.white-bgr {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     position: relative;
-    height: 540vh !important;
+    height: 450vh !important;
 }
 
-.blue-bgr-logo {
+.white-bgr-logo {
     display: flex;
     align-items: start;
     justify-content: start;
     height: 100vh;
     width: 100vw;
-    padding: 5em;
     margin-top: 15em;
+    padding: 0 5vw;
 }
 
-.blue-brg-subtitle {
+.white-brg-subtitle {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.blue-brg-subtitle p {
+.white-brg-subtitle p {
     color: #737373;
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: bold;
-    width: 40vw;
+    width: 50vw;
     text-align: left;  
 }
 
-.blue-bgr-logo img {
+.white-bgr-logo img {
     position: absolute;
     right: -5em;
-    width: 50em;
+    width: 50vw;
+    margin-top: 15em;
 }
 
 .des-intro {
@@ -86,8 +86,8 @@ body {
 }
 
 .des-intro p {
-    font-size: 2em;
-    margin: 2em 0 10em 0;
+    font-size: 2vw;
+    margin: 2em 0;
 }
 
 .right {
@@ -111,11 +111,11 @@ body {
 
 .steps-title {
     color: #47C1C4;
-    font-size: 5em;
+    font-size: 5vw;
 }
 
 .steps p {
-    font-size: 2.3em;
+    font-size: 2.3vw;
     margin: 1em 0;
 }
 
@@ -138,7 +138,7 @@ body {
 }
 
 .logo-contacto {
-    width: 40em;
+    width: 40vw;
 }
 
 .logo-button {
@@ -147,7 +147,6 @@ body {
     align-items: center;
     justify-content: center;
     width: 40vw;
-    margin-left: 5em;
 }
 
 .logo-button p {
@@ -167,4 +166,165 @@ body {
     font-size: 2em;
     font-weight: bolder;
     cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: purple;
+    }
+    
+    .blue-title h1 {
+        width: 60vw;
+        font-size: 4vw;
+        margin-bottom: 1em;
+    }
+
+    .intro-info {
+        width: 100vw;
+        padding: 0 6vw 0 10vw;
+    }
+    
+    .intro-info h2 {
+        font-size: 4vw;
+        margin-bottom: 2em;
+    }
+    
+    .intro-info p {
+        font-size: 2.5vw;
+    }
+
+    .white-brg-subtitle p {
+        font-size: 2.5vw;
+        width: 60vw;
+        margin-bottom: 5em;
+    }
+
+    .logo-contacto {
+        width: 40vw;
+        margin: auto;
+    }
+    
+    .logo-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 40vw;
+        margin: auto;
+    }
+
+    .logo-button p {
+        font-size: 2.5vw;
+        margin-bottom: 5em;
+    }
+    
+    .contacto-button {
+        padding: 0.5em 1em;
+        border-radius: 10px;
+        font-size: 3vw;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    body {
+        background-color: pink;
+    }
+    
+    .intro-banner {
+        height: 110vh !important;
+    }
+
+    .blue-title h1 {
+        width: 85vw;
+        font-size: 5vw;
+        margin-bottom: 1em;
+    }
+
+    .intro-info {
+        padding: 0 5vw;
+    }
+
+    .intro-info h2 {
+        font-size: 7vw;
+    }
+
+    .intro-info p {
+        font-size: 4vw;
+    }
+
+    .white-bgr {
+        height: 400vh !important;
+    }
+
+    .white-brg-subtitle p {
+        font-size: 4vw;
+        width: 80vw;
+        margin-bottom: 5em;
+    }
+
+    .white-bgr-logo img {
+        width: 80vw;
+        right: -3em;
+    }
+
+    .des-intro {
+        width: 90vw;
+        padding: 0;
+    }
+
+    .des-intro p {
+        width: 100%;
+    }
+
+    .steps-title {
+        font-size: 10vw;
+    }
+
+    .steps-title strong {
+        font-size: 14vw;
+    }
+
+    .steps p {
+        font-size: 5vw;
+    }
+
+    .contacto-footer {
+        height: 90vh;
+    }
+
+    .contacto-banner {
+        flex-direction: column;
+    }
+
+    .logo-contacto {
+        width: 75vw;
+    }
+    
+    .logo-button {
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        margin-top: 5em;
+    }
+
+    .logo-button p {
+        font-size: 5vw;
+        margin-bottom: 3em;
+    }
+    
+    .contacto-button {
+        font-size: 5vw;
+    }
 }
