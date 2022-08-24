@@ -11,7 +11,7 @@
 }
 
 .central-banner img {
-    width: 30em;
+    width: 30vw;
 }
 
 .quienes-somos {
@@ -357,20 +357,25 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+    .central-banner img {
+        width: 80vw;
+    }
+    
     .quienes-somos {
         padding: 10vw;
     }
 
     .title-quienes-somos {
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     .info-quienes-somos p {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     .subtitle-quienes-somos {
-        font-size: 4vw;
+        font-size: 5vw;
+        margin-top: 30em;
     }
 
     .mision-icons-cont {
