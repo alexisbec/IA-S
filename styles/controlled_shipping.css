@@ -74,7 +74,7 @@
 .white-bgr-logo img {
     position: absolute;
     right: -5em;
-    width: 50vw;
+    width: 70vw;
     margin-top: 15em;
 }
 
@@ -112,6 +112,7 @@
 .steps-title {
     color: #47C1C4;
     font-size: 5vw;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .steps p {
@@ -133,8 +134,9 @@
 
 .contacto-banner {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    width: 90vw;
 }
 
 .logo-contacto {
@@ -166,18 +168,6 @@
     font-size: 2em;
     font-weight: bolder;
     cursor: pointer;
-}
-
-@media screen and (min-width: 1440px) {
-    body {
-        background-color: green;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-    body {
-        background-color: red;
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
