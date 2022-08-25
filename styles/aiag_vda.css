@@ -25,14 +25,14 @@ body {
     flex-direction: column;
     text-align: end;
     width: 100vw;
-    padding-left: 25vw;
-    margin-top: 7em;
-    padding-right: 8em;
+    padding-left: 20vw;
+    margin-top: 6em;
+    padding-right: 8vw;
     color: #fff;
 }
 
 .intro-info h2 {
-    font-size: 3vw;
+    font-size: 5vw;
     margin-bottom: 1em;
     font-family: 'Quicksand', sans-serif;
 }
@@ -86,7 +86,7 @@ body {
 .white-bgr-logo img {
     position: absolute;
     right: -5em;
-    width: 50vw;
+    width: 60vw;
     margin-top: 40em;
 }
 
@@ -119,9 +119,7 @@ body {
 
 .list-el {
     display: flex;
-    max-height: 10em;
     margin: 1em 0;
-    width: 80vw;
 }
 
 .list-el h3 {
@@ -201,7 +199,6 @@ body {
     align-items: center;
     justify-content: center;
     width: 40vw;
-    margin: auto;
 }
 
 .logo-button p {
@@ -225,7 +222,19 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .intro-info {
-        padding: 0 10vw 0 15vw;
+        padding: 0 5vw 0 10vw;
+    }
+
+    .grey-title h1 {
+        width: 60vw;
+    }
+
+    .intro-info p {
+        font-size: 3vw;
+    }
+
+    .white-bgr {
+        height: 800vh !important;
     }
 
     .white-brg-subtitle h3 {
@@ -234,7 +243,14 @@ body {
     }
 
     .white-brg-subtitle p {
-        width: 60vw;
+        width: 80vw;
+        font-size: 3vw;
+    }
+
+    .white-bgr-logo img {
+        right: -5em;
+        width: 70vw;
+        margin-top: 50em;
     }
 
     .des-sec {
@@ -242,13 +258,33 @@ body {
         padding: auto;
     }
 
+    .des-intro p {
+        font-size: 5vw;
+    }
+
+    .list-banner {
+        width: 85vw;
+    }
+
+    .list-el h3 {
+        font-size: 13vw;
+    }
+    
+    .list-el p {
+        font-size: 3.5vw;
+    }
+
     .final-grey-title {
-        font-size: 2.5vw;
+        font-size: 3vw;
         width: 60vw;
     }
 
     .final-banner-list {
         padding: 0 10vw;
+    }
+
+    .final-banner-list p {
+        font-size: 3.5vw;
     }
 
     .logo-contacto {
@@ -283,13 +319,12 @@ body {
     }
 
     .grey-title h1 {
-        width: 70vw;
-        font-size: 5vw;
-        padding: 0.5em;
+        width: 80vw;
+        font-size: 7vw;
     }
 
     .white-bgr {
-        height: 700vh !important;
+        height: 600vh !important;
     }
 
     .intro-info {
@@ -297,11 +332,11 @@ body {
     }
 
     .intro-info h2 {
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     .intro-info p {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .white-brg-subtitle h3 {
@@ -361,7 +396,7 @@ body {
     }
 
     .final-banner-list p {
-        font-size: 4.2vw;
+        font-size: 5vw;
     }
 
     .contacto-footer {
