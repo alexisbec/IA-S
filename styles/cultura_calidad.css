@@ -39,7 +39,7 @@
     justify-content: start;
     align-items: center;
     position: relative;
-    height: 350vh !important;
+    height: 450vh !important;
 }
 
 .blue-bgr h2 {
@@ -114,15 +114,16 @@
     font-size: 5vw;
 }
 
+.steps-title strong {
+    font-size: 6vw;
+    line-height: 1.5em;
+}
+
 .steps p {
     font-size: 2.3vw;
     margin: 1em 0;
     color: #fff;
-}
-
-.steps-title strong {
-    font-size: 2em;
-    line-height: 1.5em;
+    width: 30em;
 }
 
 .contacto-footer {
@@ -196,7 +197,7 @@
         font-size: 2.5vw;
     }
 
-    .white-brg-subtitle p {
+    .blue-brg-subtitle p {
         font-size: 2.5vw;
         width: 60vw;
         margin-bottom: 5em;
@@ -230,13 +231,12 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .intro-banner {
-        height: 110vh !important;
+        height: 150vh !important;
     }
 
     .blue-title h1 {
-        width: 85vw;
-        font-size: 5vw;
-        margin-bottom: 1em;
+        width: 80vw;
+        font-size: 6vw;
     }
 
     .intro-info {
@@ -251,17 +251,17 @@
         font-size: 4vw;
     }
 
-    .white-bgr {
+    .blue-bgr {
         height: 300vh !important;
     }
 
-    .white-brg-subtitle p {
+    .blue-brg-subtitle p {
         font-size: 4vw;
         width: 80vw;
         margin-bottom: 5em;
     }
 
-    .white-bgr-logo img {
+    .blue-bgr-logo img {
         width: 80vw;
         right: -3em;
     }

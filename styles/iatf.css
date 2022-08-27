@@ -1,5 +1,6 @@
 .home-banner {
     height: 250vh;
+    padding-top: 13em;
 }
 
 .blue-sqr-cont {
@@ -9,7 +10,6 @@
 }
 
 .blue-sqr {
-    margin-top: 12em;
     background-color: #47C1C4;
     width: 30vw;
     padding: 2em;
@@ -41,21 +41,21 @@
 }
 
 .home-img img {
-    width: 50em;
-    margin-top: 30em;
+    width: 50vw;
+    margin-top: 25em;
     position: absolute;
     right: -7em;
 }
 
 .des-sec {
     height: 350vh;
-    padding: 10em;
+    padding: 10vw;
 }
 
 .des-intro {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    width: 100vw;
 }
 
 .des-intro div {
@@ -63,22 +63,19 @@
 }
 
 .des-intro p {
-    font-size: 2em;
+    font-size: 2vw;
     margin: 2em 0 10em 0;
     width: 60vw;
 }
 
 .right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
+    align-self: flex-end;
+    text-align: end;
 }
 
 .left {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
+    text-align: start;
 }
 
 .steps {
@@ -87,18 +84,19 @@
 
 .steps-title {
     color: #47C1C4;
-    font-size: 5em;
-}
-
-.steps p {
-    font-size: 2.3em;
-    margin: 1em 0;
-    width: 30em;
+    font-size: 4vw;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .steps-title strong {
-    font-size: 2em;
+    font-size: 8vw;
     line-height: 1.5em;
+}
+
+.steps p {
+    font-size: 2.3vw;
+    margin: 1em 0;
+    width: 30em;
 }
 
 .contacto-footer {
@@ -110,13 +108,13 @@
 
 .contacto-banner {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    width: 90vw;
 }
 
 .logo-contacto {
-    width: 40em;
-    margin-right: 2em;
+    width: 40vw;
 }
 
 .logo-button {
@@ -128,7 +126,7 @@
 }
 
 .logo-button p {
-    font-size: 2.5em;
+    font-size: 2vw;
     color: #737373;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -141,7 +139,241 @@
     background-color: #47C1C4;
     padding: 0.5em 1em;
     border-radius: 10px;
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: bolder;
     cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: purple;
+    }
+
+    .intro-info {
+        padding: 0 5vw 0 10vw;
+    }
+
+    .blue-title h1 {
+        width: 40vw;
+    }
+
+    .intro-info p {
+        font-size: 3vw;
+    }
+
+    .home-img img {
+        right: -5em;
+        width: 70vw;
+    }
+
+    .des-sec {
+        height: 450vh;
+        margin-top: 5em;
+    }
+
+    .subtitle {
+        font-size: 5vw;
+    }
+
+    .des-intro p {
+        font-size: 4.5vw;
+        width: 80vw;
+    }
+
+    .list-banner {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5vw;
+    }
+
+    .list-el {
+        display: flex;
+        max-height: 10em;
+        margin: 1em 0;
+        width: 100%;
+    }
+    
+    .list-el h3 {
+        font-size: 15vw;
+        width: 1.3em;
+    }
+    
+    .list-el p {
+        font-size: 4vw;
+    }
+
+    .final-banner {
+        height: 200vh !important;
+        width: 100vw;
+    }
+
+    .final-grey-title {
+        font-size: 3vw;
+        width: 60vw;
+    }
+
+    .final-banner-list {
+        padding: 0 10vw;
+    }
+
+    .final-banner-list p {
+        font-size: 4vw;
+    }
+
+    .logo-contacto {
+        width: 40vw;
+        margin: auto;
+    }
+    
+    .logo-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50vw;
+        margin: auto;
+    }
+
+    .logo-button p {
+        font-size: 3vw;
+        margin-bottom: 5em;
+    }
+    
+    .contacto-button {
+        padding: 0.5em 1em;
+        border-radius: 10px;
+        font-size: 3vw;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    body {
+        background-color: pink;
+    }
+    
+    .intro-banner {
+        height: 150vh !important;
+    }
+
+    .blue-title h1 {
+        width: 60vw;
+        font-size: 8vw;
+    }
+
+    .intro-info {
+        padding: 0 5vw;
+    }
+
+    .intro-info h2 {
+        font-size: 7vw;
+    }
+
+    .intro-info p {
+        font-size: 5vw;
+    }
+
+    .home-img img {
+        right: -2em;
+        width: 80vw;
+        margin-top: 10em;
+    }
+
+    .des-sec {
+        height: 280vh;
+        margin-top: 5em;
+    }
+
+    .subtitle {
+        font-size: 7vw;
+    }
+
+    .des-intro p {
+        font-size: 4.5vw;
+        width: 80vw;
+    }
+
+    .list-banner {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5vw;
+    }
+
+    .list-el {
+        display: flex;
+        max-height: 10em;
+        margin: 1em 0;
+        width: 100%;
+    }
+    
+    .list-el h3 {
+        font-size: 17vw;
+        width: 1.3em;
+    }
+    
+    .list-el p {
+        font-size: 4vw;
+    }
+
+    .final-banner {
+        height: 150vh !important;
+        width: 100vw;
+    }
+
+    .final-grey-title {
+        font-size: 4vw;
+        width: 80vw;
+        margin-bottom: 4em;
+    }
+
+    .final-banner-list {
+        padding: 0 10vw;
+    }
+
+    .final-banner-list p {
+        font-size: 5vw;
+    }
+
+    .contacto-footer {
+        height: 90vh;
+    }
+
+    .contacto-banner {
+        flex-direction: column;
+    }
+
+    .logo-contacto {
+        width: 75vw;
+    }
+    
+    .logo-button {
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        margin-top: 5em;
+    }
+
+    .logo-button p {
+        font-size: 5vw;
+        margin-bottom: 3em;
+    }
+    
+    .contacto-button {
+        font-size: 5vw;
+    }
 }
