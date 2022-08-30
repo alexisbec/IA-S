@@ -32,6 +32,7 @@ body {
 .intro-info h2 {
     font-size: 3vw;
     margin-bottom: 2em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .intro-info p {
@@ -92,6 +93,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
+    padding: 10vw;
 }
 
 .des-intro p {
@@ -192,6 +194,10 @@ body {
         width: 100vw;
         padding: 0 6vw 0 10vw;
     }
+
+    .info-sec {
+        height: 350vh !important;
+    }
     
     .intro-info h2 {
         font-size: 4vw;
@@ -205,6 +211,10 @@ body {
     .info-sec-logo img {
         left: -10em;
         width: 60vw;
+    }
+
+    .info-mid {
+        margin: 40em 0 20em 0;
     }
 
     .logo-contacto {

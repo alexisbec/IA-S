@@ -12,6 +12,7 @@
     border-radius: 0 10px 10px 0;
     padding: 0.5em;
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .intro-info {
@@ -27,6 +28,7 @@
 .intro-info h2 {
     font-size: 3vw;
     margin-bottom: 1em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .intro-info p {
@@ -52,9 +54,16 @@
     display: flex;
     align-items: start;
     justify-content: start;
-    height: 100vh;
+    height: 140vh;
     width: 100vw;
     padding: 5vw;
+}
+
+.blue-bgr-logo img {
+    position: absolute;
+    right: -5em;
+    width: 50vw;
+    margin-top: 40vh;
 }
 
 .blue-brg-subtitle {
@@ -69,13 +78,6 @@
     font-weight: bold;
     width: 60vw;
     text-align: left; 
-}
-
-.blue-bgr-logo img {
-    position: absolute;
-    right: -5em;
-    width: 70vw;
-    margin-top: 40vh;
 }
 
 .des-intro {
@@ -178,6 +180,10 @@
         margin-bottom: 1em;
     }
 
+    .blue-bgr-logo {
+        height: 110vh;
+    }
+
     .blue-brg-subtitle p {
         font-size: 3vw;
         width: 80vw;
@@ -237,6 +243,10 @@
     .blue-title h1 {
         width: 80vw;
         font-size: 6vw;
+    }
+
+    .blue-bgr-logo {
+        height: 100vh;
     }
 
     .intro-info {
