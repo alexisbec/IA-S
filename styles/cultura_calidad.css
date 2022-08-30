@@ -203,6 +203,11 @@
         font-size: 2.5vw;
     }
 
+    .blue-bgr-logo img {
+        right: -5em;
+        width: 70vw;
+    }
+
     .blue-brg-subtitle p {
         font-size: 2.5vw;
         width: 60vw;
