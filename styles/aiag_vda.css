@@ -25,9 +25,8 @@ body {
     flex-direction: column;
     text-align: end;
     width: 100vw;
-    padding-left: 20vw;
+    padding: 0 8vw 0 20vw;
     margin-top: 6em;
-    padding-right: 8vw;
     color: #fff;
 }
 

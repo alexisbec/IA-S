@@ -8,7 +8,7 @@
     width: 50vw;
     color: #fff;
     background-color: #47C1C4;
-    font-size: 3.5vw;
+    font-size: 3.2vw;
     border-radius: 0 10px 10px 0;
     padding: 0.5em;
     text-align: center;
@@ -114,6 +114,7 @@
 .steps-title {
     color: #737373;
     font-size: 5vw;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .steps-title strong {
