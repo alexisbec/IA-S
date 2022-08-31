@@ -67,7 +67,7 @@ body {
 
 .white-brg-subtitle p {
     color: #737373;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-weight: bold;
     width: 60vw;
     text-align: left;  
@@ -75,8 +75,8 @@ body {
 
 .white-bgr-logo img {
     position: absolute;
-    right: -7em;
-    width: 60vw;
+    right: -10em;
+    width: 55vw;
     margin-top: 40em;
 }
 
@@ -184,6 +184,11 @@ body {
     body {
         background-color: red;
     }
+
+    .white-bgr-logo img {
+        right: -5em;
+        width: 60vw;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -211,6 +216,11 @@ body {
 
     .white-bgr {
         height: 400vh !important;
+    }
+
+    .white-brg-subtitle p {
+        font-size: 3vw;
+        width: 80vw;
     }
 
     .white-bgr-logo img {
@@ -275,6 +285,10 @@ body {
 
     .intro-info p {
         font-size: 4vw;
+    }
+
+    .white-bgr {
+        height: 450vh !important;
     }
 
     .white-brg-subtitle p {
