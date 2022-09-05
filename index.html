@@ -20,33 +20,18 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <div class="nav-right visible-xs">
-        <div class="button" id="btn">
-            <div class="bar top"></div>
-            <div class="bar middle"></div>
-            <div class="bar bottom"></div>
+    <div id="mySidenav" class="sidenav">
+        <a href="#">Inicio</a>
+        <a href="#">Asesorias</a>
+        <a href="#">Cursos</a>
+        <a href="#">Contacto</a>
+        <div class="closebtn">
+            <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
         </div>
     </div>
-    <div class="main">
-        <nav>
-            <div class="nav-right hidden-xs">
-                <div class="button" id="btn">
-                    <div class="bar top"></div>
-                    <div class="bar middle"></div>
-                    <div class="bar bottom"></div>
-                </div>
-            </div>
-        </nav>
-    </div>
-          
-    <div class="sidebar">
-        <ul class="sidebar-list">
-            <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 1</a></li>
-            <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 2</a></li>
-            <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 3</a></li>
-            <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 4</a></li>
-        </ul>
-    </div>
+    <span class="nav-btn" style="font-size:30px;cursor:pointer" onclick="openNav()">
+        <i class="fa-solid fa-bars"></i>
+    </span>
     
     <section class="home">
         <div class="central-banner" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500">
@@ -54,7 +39,7 @@
         </div>
     </section>
     
-    <section class="quienes-somos" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="500">
+    <section class="quienes-somos">
         <p class="title-quienes-somos" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300" data-aos-offset="0">¿Quienes somos?</p>
 
         <div class="info-quienes-somos" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">

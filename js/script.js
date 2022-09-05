@@ -12,24 +12,6 @@ $(function () {
         });
 });
 
-$(document).ready(function() {
-    function toggleSidebar() {
-        $(".button").toggleClass("active");
-        $("main").toggleClass("move-to-left");
-        $(".sidebar-item").toggleClass("active");
-    }
-
-    $(".button").on("click", function() {
-        toggleSidebar();
-    });
-
-    $(document).keyup(function(e) {
-        if (e.keyCode === 27) {
-            toggleSidebar();
-        }
-    });
-});
-
 $(function(){
     var value2upd = function(){
         var w = $(window).width();
@@ -40,3 +22,18 @@ $(function(){
         $('.subtitle-quienes-somos').attr('data-aos', value2upd);
     }).resize();
 });
+
+function openNav() {
+    var w = $(window).width();
+    if (w < 768) {
+        document.getElementById("mySidenav").style.width = "100vw";
+    } else if (w < 1024) {
+        document.getElementById("mySidenav").style.width = "70vw";
+    } else {
+        document.getElementById("mySidenav").style.width = "40vw";
+    }
+}
+  
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
