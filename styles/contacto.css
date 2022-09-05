@@ -1,36 +1,86 @@
+.title {
+   width: 100vw;
+   padding: 0 10em;
+   margin-top: 4em;
+}
+
+.title h1 {
+    margin: 0 2em;
+    color: #47C1C4;
+    font-size: 5vw;
+}
+
 .home-banner {
-    height: 90vh;
+    height: 80vh;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10em 20em 20em;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5em 10em;
 }
 
 .row {
-    margin: 8em 0;
+    margin: 5em 0;
+    display: flex;
 }
 
 .row input {
     background-color: #47C1C4;
     border: none;
+    border-radius: 15px;
+    padding: 1em;
+    width: 30vw;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 2em;
+    font-size: 1.5vw;
+}
+
+.col input {
+    background-color: #47C1C4;
+    border: none;
     border-radius: 5px;
     padding: 1em;
-    margin: 0 2em;
     width: 40em;
     color: #fff;
     font-family: 'Quicksand', sans-serif;
 }
 
-.msj input {
+.msj {
+    display: flex;
+}
+
+textarea {
     background-color: #47C1C4;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1em;
-    margin: 0 2em;
-    width: 60em;
-    height: 3em;
+    width: 30vw;
+    height: 6em;
     color: #fff;
     font-family: 'Quicksand', sans-serif;
+    resize: none;
+    margin: 0 2em;
+    font-size: 1.5vw;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2em;
+    width: 30vw;
+}
+
+.btn input {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: #737373;
+    border: none;
+    color: #fff;
+    font-size: 2vw;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
 }
 
 ::placeholder {

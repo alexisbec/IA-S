@@ -33,6 +33,10 @@
         <i class="fa-solid fa-bars"></i>
     </span>
 
+    <div class="title">
+        <h1>Contacto</h1>
+    </div>
+
     <div class="home-banner">
         <form>
             <div class="row">
@@ -44,12 +48,15 @@
                 <input type="number" name="celular" placeholder="Celular" required>
             </div>
             <div class="msj">
-                <input type="text" name="mensaje" placeholder="Mensaje">
+                <textarea type="text" name="mensaje" placeholder="Mensaje"></textarea>
+                <div class="btn">
+                    <input type="subtmit" value="Enviar">
+                </div>
             </div>
         </form>
     </div>
 
-    <footer class="footer-grey" data-aos="zoom-in" data-aos-duration="500">
+    <footer class="footer-grey">
         <div class="left-col">
             <a>Politicas de privacidad</a>
             <a>Terminos y condiciones</a>
@@ -70,6 +77,11 @@
     <!-- Scroll Animation -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
+
+    <!---- Scroll Background ---->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../js/jquery.scrollie.min.js"></script>
+    <script src="../js/script.js"></script>
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/bf7cee036b.js" crossorigin="anonymous"></script>
