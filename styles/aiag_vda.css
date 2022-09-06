@@ -85,7 +85,7 @@ body {
 .white-bgr-logo img {
     position: absolute;
     right: -5em;
-    width: 60vw;
+    width: 55vw;
     margin-top: 40em;
 }
 
@@ -141,7 +141,7 @@ body {
     color: #fff;
     background-color: #737373;
     padding: 1em;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-family: 'Quicksand', sans-serif;
     width: 40vw;
     text-align: center;
@@ -217,6 +217,10 @@ body {
     font-size: 2vw;
     font-weight: bolder;
     cursor: pointer;
+}
+
+.contacto-button:hover {
+    font-size: 2.5vw;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

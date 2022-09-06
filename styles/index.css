@@ -24,7 +24,7 @@
     padding-top: 10em;
     background: #47C1C4;
     border-radius: 5em;
-    padding: 100em 15vw;
+    padding: 80em 15vw;
 }
 
 .title-quienes-somos {
@@ -81,15 +81,16 @@
     font-size: 2em;
     font-weight: bold;
     margin: 1em 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .mision-desc {
-    font-size: 1vw;
+    font-size: 1.5vw;
     color: #737373;
     text-align: center;
     margin: 0 3em;
     width: 20vw;
-    line-height: 2em;
+    line-height: 1.2em;
 }
 
 .info-logo {
@@ -128,7 +129,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5em 15em;
+    padding: 5em 15vw;
     line-height: 3em;
 }
 
@@ -140,7 +141,7 @@
 }
 
 .politicas p {
-    font-size: 2em;
+    font-size: 2vw;
     text-align: center;
     color: #737373;
 }
@@ -157,7 +158,7 @@
     font-size: 3em;
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
-    margin: 20vh 0;
+    margin: 50vh 0 10vh;
 }
 
 .blue-sqr {
@@ -233,6 +234,11 @@
     font-weight: bolder;
     margin: auto;
     cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.contacto-button:hover {
+    font-size: 2.5vw;
 }
 
 @media screen and (min-width: 1440px) {
@@ -241,13 +247,17 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
+    .quienes-somos {
+        height: 200vh;
+    }
+
     .mision-icons-cont {
         padding: 5vw;
     }
 
     .pros {
-        padding: 30em 20em;
+        height: 400vh;
     }
 }
 
@@ -317,6 +327,10 @@
 
     .pros {
         padding: 30em 5em;
+    }
+
+    .pros h2 {
+        font-size: 5vw;
     }
     
     .pros p {

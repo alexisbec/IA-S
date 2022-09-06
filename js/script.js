@@ -12,17 +12,6 @@ $(function () {
         });
 });
 
-$(function(){
-    var value2upd = function(){
-        var w = $(window).width();
-        return w < 767 ? "zoom-in" : "zoom-out";
-    };
-
-    $(window).resize(function(){
-        $('.subtitle-quienes-somos').attr('data-aos', value2upd);
-    }).resize();
-});
-
 function openNav() {
     var w = $(window).width();
     if (w < 768) {

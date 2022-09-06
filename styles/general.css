@@ -4,7 +4,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     outline: none !important;
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
 
 ::-webkit-scrollbar {
@@ -37,6 +37,10 @@ body {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* ----- Nav Bar ----- */
 
 .sidenav {
@@ -58,7 +62,10 @@ body {
     font-size: 2vw;
     color: #fff;
     display: block;
-    transition: 0.3s;
+}
+
+.sidenav li a:hover {
+    font-size: 2.3vw;
 }
 
 .closebtn {
@@ -83,6 +90,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.contacto-button:hover {
+    font-size: 2.5vw;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
