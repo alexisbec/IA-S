@@ -92,6 +92,11 @@ a {
     justify-content: center;
 }
 
+.nav-btn p {
+    margin-right: 1vw;
+    display: block;
+}
+
 .contacto-button:hover {
     font-size: 2.5vw;
 }
@@ -104,6 +109,11 @@ a {
     .closebtn a {
         font-size: 10vw;
     }
+
+    .nav-btn p {
+        font-size: 3vw;
+        margin-right: 2vw;
+    }
 }
 
 
@@ -114,6 +124,10 @@ a {
 
     .closebtn a {
         font-size: 25vw;
+    }
+
+    .nav-btn p {
+        display: none;
     }
 }
 
