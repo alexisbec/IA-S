@@ -39,6 +39,7 @@ body {
 
 a {
     text-decoration: none;
+    color: none;
 }
 
 /* ----- Nav Bar ----- */
@@ -126,7 +127,7 @@ a {
         font-size: 25vw;
     }
 
-    .nav-btn p {
+    #Menu {
         display: none;
     }
 }
@@ -188,6 +189,7 @@ a {
     margin: 0 0.3em;
     cursor: pointer;
     transition: 0.1s;
+    color: #737373;
 }
 
 .social a:hover {

@@ -5,7 +5,7 @@ body {
 .intro-banner {
     width: 100vw;
     height: 150vh !important;
-    padding-top: 13em;
+    padding-top: 5em;
 }
 
 .blue-title h1 {
@@ -51,7 +51,7 @@ body {
     display: flex;
     align-items: start;
     justify-content: start;
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     margin-top: 15em;
     padding: 0 5vw;
@@ -74,7 +74,7 @@ body {
 .white-bgr-logo img {
     position: absolute;
     right: -5em;
-    width: 70vw;
+    width: 55vw;
     margin-top: 15em;
 }
 
@@ -83,6 +83,8 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100vw;
+    height: 400vh;
+    padding-top: 10em;
 }
 
 .des-intro p {
@@ -175,10 +177,6 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    body {
-        background-color: purple;
-    }
-    
     .blue-title h1 {
         width: 60vw;
         font-size: 4vw;
@@ -203,6 +201,16 @@ body {
         font-size: 2.5vw;
         width: 60vw;
         margin-bottom: 5em;
+    }
+
+    .white-bgr-logo img {
+        right: -3em;
+        width: 60vw;
+    }
+
+    .des-intro {
+        height: 250vh;
+        padding-top: 0;
     }
 
     .logo-contacto {
@@ -232,12 +240,9 @@ body {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    body {
-        background-color: pink;
-    }
-    
     .intro-banner {
         height: 110vh !important;
+        padding-top: 8em;
     }
 
     .blue-title h1 {
