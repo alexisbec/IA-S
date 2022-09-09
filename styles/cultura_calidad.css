@@ -208,6 +208,10 @@
         font-size: 2.5vw;
     }
 
+    .blue-bgr {
+        height: 350vh !important;
+    }
+
     .blue-bgr-logo img {
         right: -5em;
         width: 70vw;
@@ -272,7 +276,7 @@
     }
 
     .blue-bgr {
-        height: 300vh !important;
+        height: 350vh !important;
     }
 
     .blue-brg-subtitle p {
