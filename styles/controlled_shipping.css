@@ -16,6 +16,7 @@ body {
     border-radius: 0 10px 10px 0;
     padding: 0.5em;
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .intro-info {
@@ -32,6 +33,7 @@ body {
 .intro-info h2 {
     font-size: 3vw;
     margin-bottom: 1em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .intro-info p {
@@ -41,7 +43,7 @@ body {
 .white-bgr {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
     height: 450vh !important;
