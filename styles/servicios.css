@@ -5,7 +5,7 @@ body {
 .intro-banner {
     width: 100vw;
     height: 170vh !important;
-    padding-top: 5em;
+    padding-top: 6em;
 }
 
 .grey-title h1 {
@@ -263,7 +263,8 @@ body {
     }
 
     .intro-banner {
-        height: 140vh;
+        height: 120vh !important;
+        padding-top: 8em;
     }
     
     .intro-info {
@@ -280,7 +281,11 @@ body {
     }
 
     .white-bgr {
-        height: 450vh !important;
+        height: 350vh !important;
+    }
+
+    .white-brg-subtitle {
+        margin: 10em 0;
     }
 
     .white-brg-subtitle p {
@@ -291,6 +296,7 @@ body {
     .white-bgr-logo img {
         right: -2em;
         width: 80vw;
+        margin-top: 20em;
     }
 
     .des-intro {
